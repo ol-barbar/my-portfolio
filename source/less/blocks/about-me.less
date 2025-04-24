@@ -1,0 +1,40 @@
+.about-me {
+    padding: 15px 0;
+    @media (min-width:@tablet-size) {
+        padding: 25px 0;
+    }
+}
+
+.about-me-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    @media (min-width: @tablet-size) {
+        flex-direction: row;
+    }
+
+    @media (min-width: @desktop-size) {
+        gap: 75px;
+    }
+
+}
+
+.about-me__pic {
+    max-width: 200px;
+}
+
+.about-me__img {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+}
+
+.about-me__desk {
+    text-align: center;
+}
+
+.about-me__text {
+    margin: 0;
+}
